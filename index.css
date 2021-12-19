@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+body * {
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background: rgb(174, 226, 160);
+  padding: 10px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.app * {
+  margin-bottom: 20px;
+}
